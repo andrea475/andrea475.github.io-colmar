@@ -1,0 +1,50 @@
+html {
+    
+
+}
+
+/*Header*/
+
+header {
+    height: 32px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 32px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+}
+
+header i {
+    font-size: x-large;
+}
+
+header ul {
+    float: right;
+    padding-right: 24px;
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header a {
+    margin-right: 16px;
+}
